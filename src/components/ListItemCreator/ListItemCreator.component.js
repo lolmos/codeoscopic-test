@@ -31,10 +31,13 @@ const DropDown = ({ addListItem, colors, ...otherProps }) => (
 const ListItemCreator = ({ colors, firstColor }) => {
   //create the state for the list item text
   const [listItemText, setListItemText] = useState('')
+  // onChange funtion for itemtext
+  const itemTextOnChange = e => { e.preventDefault(); setListItemText(e.target.value) }
   // create the sate for selected colors
   const [selectedColor, setSelectedColor] = useState(firstColor)
-  // onChange utility for selected texts
-  const onChange = e => { e.preventDefault(); setListItemText(e.target.value) }
+  // onChange funtion for colors
+  const colorOnChange = e => { e.preventDefault(); setSelectedColor(e.target.value) }
+
   const dispatch = useDispatch();
   // create a unique id for each item which we can use as a key when iterating in list 
   // combine the hex value and a timestamp
@@ -55,7 +58,7 @@ const ListItemCreator = ({ colors, firstColor }) => {
         <input
           id="iteminput"
           name="itemname"
-          onChange={onChange}
+          onChange={itemTextOnChange}
           type="text"
           value={listItemText}
         />
@@ -65,23 +68,28 @@ const ListItemCreator = ({ colors, firstColor }) => {
           name="color"
           colors={colors}
           value={selectedColor}
-          onChange={e => {
-            e.preventDefault()
-            setSelectedColor(e.target.value)
-          }}
+          onChange={colorOnChange}
         />
 
 
         <button
           className="creator-button"
+          // disable button if the field is empty
           disabled={listItemText === '' && true}
           type="submit"
           onClick={() => {
-            dispatch(addListItem({
-              id: createUniqueId(selectedColor),
-              itemName: listItemText,
-              hex: selectedColor
-            }))
+            // send items to redux
+            dispatch(
+              // use addListItemAction
+              addListItem(
+                // send object
+                {
+                  id: createUniqueId(selectedColor),
+                  itemName: listItemText,
+                  hex: selectedColor
+                }
+              ))
+            // reset list item to empty string
             setListItemText('')
           }}
         >

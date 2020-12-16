@@ -3,7 +3,7 @@
 // takes in the hook to use and then returns the hook withh the response as a paramater
 // 
 const getColors = async (setterHook) => {
-  // set the ulr 
+  // set the url
   const colorsURL = "http://www.colr.org/json/colors/random/10"
 
   const fetchColors = async () => await fetch(colorsURL)

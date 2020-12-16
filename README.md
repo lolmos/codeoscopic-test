@@ -16,7 +16,7 @@ Realizado por **Luis Olmos**
 
 ### Opcionales
 
-- [] Programarlo con TypeScript.
+- [ ] Programarlo con TypeScript.
 
 - [x] Utilizar Redu x para guardar la lista de elementos añadidos
 

@@ -29,7 +29,7 @@ Realizado por **Luis Olmos**
 Disfruté bastante del ejercicio, es la primera vez que uso Redux con el ToolKit entonce tardé un poco en leer la documentación.
 La verdad han hecho unas funciones muy lindas de todas las abstracciones que se tenian que hacer manualmente antes.
 
-Intenté subirlo a Heroku pero me está marcando el browser un error de carga de cotenido mixto. Tendría que crear un proxy para accesarlo y no tengo tiempo.
+Intenté subirlo a HeroKu ->> [codeoscopic-react-redux-test](https://codeoscopic-react-redux-test.herokuapp.com/) pero me está marcando el browser un error de carga de cotenido mixto. El url de colr no tiene ssl. Tendría que crear un proxy para accesarlo y no tengo tiempo.
 
 Como vi que el ejercicio estába en inglés seguí así y todos los comentarios en el código están en inglés. En un futuro si me lo especifican así lo haré en castellano.
 

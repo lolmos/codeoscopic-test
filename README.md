@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Este proyecto fuecreado con [Create React App](https://github.com/facebook/create-react-app), usando [Redux](https://redux.js.org/) y [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
+# Code test de Codeoscopic
 
-In the project directory, you can run:
+Realizado por **Luis Olmos**
 
-### `yarn start`
+## Comentarios
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Todo está funcionando según las intrucciones
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [x] El primer input sirve para introducir un campo de te x to.
 
-### `yarn test`
+- [x] El desplegable debe mostrar como opciones los colores que se obtienen al hacer una petición de GET al siguiente recurso: http://www.colr.org/json/colors/random/10
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] Al clicar el botón, se debe añadir a la lista que hay debajo un elemento que muestre el te x to y el color que hemos introducido en los dos controles previos.
 
-### `yarn build`
+### Opcionales
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [] Programarlo con TypeScript.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [x] Utilizar Redu x para guardar la lista de elementos añadidos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] Añadir el botón con la funcionalidad de borrar cada elemento de la lista.
 
-### `yarn eject`
+- [x] Añadir estilos a la interfaz..
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Otros comentarios
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Disfruté bastante del ejercicio, es la primera vez que uso Redux con el ToolKit entonce tardé un poco en leer la documentación.
+La verdad han hecho unas funciones muy lindas de todas las abstracciones que se tenian que hacer manualmente antes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Intenté subirlo a Heroku pero me está marcando el browser un error de carga de cotenido mixto. Tendría que crear un proxy para accesarlo y no tengo tiempo.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Como vi que el ejercicio estába en inglés seguí así y todos los comentarios en el código están en inglés. En un futuro si me lo especifican así lo haré en castellano.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Les agradesco la oportunidad de intentar unirme al equípo en caso de que no pase la oposición les agradecería si se pueden tomar un momento para darme algún consejo de lo que puedo mejorar.

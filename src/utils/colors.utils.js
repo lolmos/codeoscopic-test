@@ -5,10 +5,15 @@
 const getColors = async (setterHook) => {
   // set the url
   const colorsURL = "http://www.colr.org/json/colors/random/10"
+  const headers = { 'Content-Type': 'application/json' }
 
-  const fetchColors = async () => await fetch(colorsURL)
+  const fetchColors = async () => await fetch(colorsURL, { headers })
     .then(response => response.json())
-    .then(data => setterHook(data.colors));
+    .then(data => setterHook(data.colors))
+    .catch(error => {
+      console.error('There was an error!', error);
+    });
+  ;
   return fetchColors()
 }
 

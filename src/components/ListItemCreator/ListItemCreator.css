@@ -1,0 +1,27 @@
+.item-creator {
+  padding: 8px;
+  background-color: lightgreen;
+}
+label {
+  display: block;
+  width: 98%;
+  text-align: left;
+  height: 24px;
+  padding-bottom: 4px;
+}
+
+.dropdown {
+  width: 100%;
+  padding: 4px;
+}
+
+#iteminput {
+  width: 98%;
+  padding: 4px;
+  margin: 0;
+}
+
+.creator-button {
+  width: 100%;
+  padding: 4px;
+}

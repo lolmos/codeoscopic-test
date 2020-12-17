@@ -1,4 +1,4 @@
-Este proyecto fuecreado con [Create React App](https://github.com/facebook/create-react-app), usando [Redux](https://redux.js.org/) y [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app), usando [Redux](https://redux.js.org/) y [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 # Code test de Codeoscopic
 
@@ -6,7 +6,7 @@ Realizado por **Luis Olmos**
 
 ## Comentarios
 
-### Todo está funcionando según las intrucciones
+### Todo está funcionando según las instrucciones
 
 - [x] El primer input sirve para introducir un campo de te x to.
 
@@ -26,11 +26,11 @@ Realizado por **Luis Olmos**
 
 ### Otros comentarios
 
-Disfruté bastante del ejercicio, es la primera vez que uso Redux con el ToolKit entonce tardé un poco en leer la documentación.
-La verdad han hecho unas funciones muy lindas de todas las abstracciones que se tenian que hacer manualmente antes.
+Disfruté bastante del ejercicio, es la primera vez que uso Redux con el ToolKit entonces tardé un poco en leer la documentación.
+La verdad han hecho unas funciones muy lindas de todas las abstracciones que se tenían que hacer manualmente antes.
 
-Intenté subirlo a HeroKu ->> [codeoscopic-react-redux-test](https://codeoscopic-react-redux-test.herokuapp.com/) pero me está marcando el browser un error de carga de cotenido mixto. El url de colr no tiene ssl. Tendría que crear un proxy para accesarlo y no tengo tiempo.
+Intenté subirlo a HeroKu ->> [codeoscopic-react-redux-test](https://codeoscopic-react-redux-test.herokuapp.com/) pero me está marcando el browser un error de carga de contenido mixto. El url de colr no tiene ssl. Tendría que crear un proxy para accesarlo y no tengo tiempo.
 
-Como vi que el ejercicio estába en inglés seguí así y todos los comentarios en el código están en inglés. En un futuro si me lo especifican así lo haré en castellano.
+Como vi que el ejercicio estaba en inglés seguí así y todos los comentarios en el código están en inglés. En un futuro si me lo especifican así lo haré en castellano.
 
-Les agradesco la oportunidad de intentar unirme al equípo en caso de que no pase la oposición les agradecería si se pueden tomar un momento para darme algún consejo de lo que puedo mejorar.
+Les agradezco la oportunidad de intentar unirse al equipo en caso de que no pase la oposición les agradecería si se pueden tomar un momento para darme algún consejo de lo que puedo mejorar.

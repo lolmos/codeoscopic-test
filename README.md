@@ -8,11 +8,11 @@ Realizado por **Luis Olmos**
 
 ### Todo está funcionando según las instrucciones
 
-- [x] El primer input sirve para introducir un campo de te x to.
+- [x] El primer input sirve para introducir un campo de texto.
 
 - [x] El desplegable debe mostrar como opciones los colores que se obtienen al hacer una petición de GET al siguiente recurso: http://www.colr.org/json/colors/random/10
 
-- [x] Al clicar el botón, se debe añadir a la lista que hay debajo un elemento que muestre el te x to y el color que hemos introducido en los dos controles previos.
+- [x] Al clicar el botón, se debe añadir a la lista que hay debajo un elemento que muestre el texto y el color que hemos introducido en los dos controles previos.
 
 ### Opcionales
 
